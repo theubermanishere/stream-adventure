@@ -9,3 +9,4 @@ var stream = through(function (b,e,n) {
 })
 
 process.stdin.pipe(stream).pipe(process.stdout);
+
